@@ -1,218 +1,74 @@
 <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">WEDDING</li>
-              <li data-filter=".filter-card">BABY SHOWERS</li>
-              <!-- <li data-filter=".filter-web">PHOTOGRAPHY</li> -->
-              <!-- <li data-filter=".filter-event">CORPORATE EVENTS</li>
-              <li data-filter=".filter-artist">ARTISTS MANAGEMENT</li>
-              <li data-filter=".filter-baby">BABY SHOWERS</li> -->
-
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="assets/img/portfolio/wedding2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Venue Selection">
-              <img src="assets/img/portfolio/wedding2.jpg" class="img-fluid" alt="">
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="assets/img/portfolio/wedding3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Destination Wedding">
-              <img src="assets/img/portfolio/wedding3.jpg" class="img-fluid" alt="">
-            </a>
-
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="assets/img/portfolio/wedding.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Invitation Printing">
-              <img src="assets/img/portfolio/wedding.jpg" class="img-fluid" alt="">
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="assets/img/portfolio/house.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2">
-              <img src="assets/img/portfolio/house.jpg" class="img-fluid" alt="">
-            </a>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/house1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>House Warming</h4>
-
-              <a href="assets/img/portfolio/house1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/house2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>House Warming</h4>
-
-              <a href="assets/img/portfolio/house2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/house3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>House Warming</h4>
-
-              <a href="assets/img/portfolio/house3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/photography.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Photography</h4>
-
-              <a href="assets/img/portfolio/photography.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/photography1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Photography</h4>
-
-              <a href="assets/img/portfolio/photography1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/photography2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Photography</h4>
-
-              <a href="assets/img/portfolio/photography2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/photography3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Photography</h4>
-
-              <a href="assets/img/portfolio/photography3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-event">
-            <img src="assets/img/portfolio/event.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Event Management</h4>
-
-              <a href="assets/img/portfolio/event.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-event">
-            <img src="assets/img/portfolio/event1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Event Management</h4>
-
-              <a href="assets/img/portfolio/event1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-event">
-            <img src="assets/img/portfolio/event2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Event Management</h4>
-
-              <a href="assets/img/portfolio/event2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-artist">
-            <img src="assets/img/portfolio/artists.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Artists Management</h4>
-
-              <a href="assets/img/portfolio/artists.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-artist">
-            <img src="assets/img/portfolio/artists1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Artists Management</h4>
-
-              <a href="assets/img/portfolio/artists1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-artist">
-            <img src="assets/img/portfolio/artists2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Artists Management</h4>
-
-              <a href="assets/img/portfolio/artists2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-baby">
-            <img src="assets/img/portfolio/baby.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Baby Shower</h4>
-
-              <a href="assets/img/portfolio/baby.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-baby">
-            <img src="assets/img/portfolio/baby1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Baby Shower</h4>
-
-              <a href="assets/img/portfolio/baby1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-baby">
-            <img src="assets/img/portfolio/baby2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Baby Shower</h4>
-
-              <a href="assets/img/portfolio/baby2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-
-            </div>
-          </div> -->
-
-
-
-        </div>
-
+  <div class="container">
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-wedding">WEDDING</li>
+          <li data-filter=".filter-baby">BABY SHOWERS</li>
+          <li data-filter=".filter-birthday">BIRTHDAYS</li>
+          <li data-filter=".filter-corprate-events">CORPRATE EVENTS</li>
+        </ul>
       </div>
-    </section><!-- End Portfolio Section -->
+    </div>
+    <div class="row portfolio-container" data-aos="fade-up">
+      <?php
+
+      class images
+      {
+        public $imgSrc;
+        public $altName;
+        public $title;
+        public $filter;
+        function __construct($imgSrc, $altName, $title, $filter)
+        {
+          $this->imgSrc = $imgSrc;
+          $this->altName = $altName;
+          $this->title = $title;
+          $this->filter = $filter;
+        }
+      }
+      $imgArray = array();
+      $imgArray[0] = new images("assets/img/portfolio/babyShower/c5f29a4c-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Baby Shower", "filter-baby");
+      $imgArray[1] = new images("assets/img/portfolio/babyShower/c5f29b00-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Baby Shower", "filter-baby");
+
+      $imgArray[2] = new images("assets/img/portfolio/birthday/c5f292f4-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Birthday Welcome decoration", "filter-birthday");
+      $imgArray[3] = new images("assets/img/portfolio/birthday/c5f293a8-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Birthday Welcome decoration", "filter-birthday");
+      $imgArray[4] = new images("assets/img/portfolio/birthday/c5f296be-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Birthday Welcome decoration", "filter-birthday");
+      $imgArray[5] = new images("assets/img/portfolio/birthday/c5f298e4-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Birthday Cake Cutting", "filter-birthday");
+      $imgArray[6] = new images("assets/img/portfolio/birthday/c5f2906a-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Decorations", "filter-birthday");
+      $imgArray[7] = new images("assets/img/portfolio/birthday/c5f2977c-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Welcome Decorations with baloons", "filter-birthday");
+      $imgArray[8] = new images("assets/img/portfolio/birthday/c5f29600-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Memories / Photos Collection decoration", "filter-birthday");
+      $imgArray[9] = new images("assets/img/portfolio/birthday/c5f29830-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Gift Collection Counter", "filter-birthday");
+      $imgArray[10] = new images("assets/img/portfolio/birthday/c5f29998-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Gift Collection Counter", "filter-birthday");
+
+      $imgArray[11] = new images("assets/img/portfolio/corprateEvents/c5f28796-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "TurboSteel Launch Event", "filter-corprate-events");
+      $imgArray[12] = new images("assets/img/portfolio/corprateEvents/c5f289b2-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Renault Kiger Launch", "filter-corprate-events");
+      $imgArray[13] = new images("assets/img/portfolio/corprateEvents/c5f29236-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Birthday", "filter-birthday");
+
+      $imgArray[14] = new images("assets/img/portfolio/wedding/c5f28aac-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[15] = new images("assets/img/portfolio/wedding/c5f28b7e-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[16] = new images("assets/img/portfolio/wedding/c5f28c46-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[17] = new images("assets/img/portfolio/wedding/c5f28d04-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[18] = new images("assets/img/portfolio/wedding/c5f28ee4-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[19] = new images("assets/img/portfolio/wedding/c5f28fac-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[20] = new images("assets/img/portfolio/wedding/c5f29178-3a01-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[21] = new images("assets/img/portfolio/wedding/a93110f6-3a14-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[22] = new images("assets/img/portfolio/wedding/a931129a-3a14-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+      $imgArray[23] = new images("assets/img/portfolio/wedding/a931138a-3a14-11ec-8d3d-0242ac130003.jpg", "altMessage", "Wedding", "filter-wedding");
+
+      foreach ($imgArray as $value) {
+        echo
+        "<div class='col-lg-4 col-md-6 portfolio-item filter-app $value->filter'>
+        <a href='$value->imgSrc' data-gallery='$value->title' class='portfolio-lightbox preview-link' title='$value->title'>
+          <img src='$value->imgSrc' class='img-fluid' alt='' style='height: 25vh; margin: auto;
+          display: block;'>
+         </a>
+       </div>";
+      }
+      ?>
+    </div>
+
+  </div>
+</section><!-- End Portfolio Section -->
