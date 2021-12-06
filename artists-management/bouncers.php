@@ -5,10 +5,20 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Big Bouncers Security Services Amman Nagar,Hosur, Tamil Nadu | Baby Bouncers | Infant Seats and Rockers | Google Bouncers | Events Security in Hosur,Bangalore | Bargavaa Events Planner</title>
- <meta name="description" content="We offer Quality and highly professional bouncer services to ensure protection in all your events.."/>
-    <meta name="keyword" content="Big Bouncers Security Event, big bouncer company, bouncer for events, bigbasket security, bigbasket security breach, bouncer job for events, bouncer event meaning, what does bouncer mean, bouncers for events, bigbasket faq, bigbasket breach, bigbasket data breach, bigbasket data breach what to do, big basket data breach, bouncer job in club, bouncer job in pub, bouncer job requirements, bouncer job eligibility, bouncer job apply">
- 
+
+  <?php
+
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
+
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
+
+
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
@@ -35,9 +45,9 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
- <?php include '../components/top-bar.php';?>
+  <?php include '../components/top-bar.php'; ?>
   <!-- ======= Header ======= -->
-  <?php include '../components/header.php';?>
+  <?php include '../components/header.php'; ?>
   <!-- End Header -->
 
   <main id="main">
@@ -67,9 +77,10 @@
             <div class="content d-flex flex-column justify-content-center">
               <h3 data-aos="fade-up"> Bouncers</h3>
               <p data-aos="fade-up">
-            We offer Quality and highly professional bouncer services to ensure protection in all
-your events.</p>  <div class="row">
-                   </div>
+                We offer Quality and highly professional bouncer services to ensure protection in all
+                your events.</p>
+              <div class="row">
+              </div>
             </div><!-- End .content-->
           </div>
         </div>
@@ -78,9 +89,9 @@ your events.</p>  <div class="row">
     </section><!-- End About Us Section -->
 
     <!-- ======= Our Team Section ======= -->
- 
+
     <!-- ======= Our Skills Section ======= -->
-   <!-- <section id="skills" class="skills">
+    <!-- <section id="skills" class="skills">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -144,13 +155,14 @@ your events.</p>  <div class="row">
 
       </div>
     </section>-->
-	
-	<!-- End Our Skills Section -->
+
+    <!-- End Our Skills Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <?php include '../components/footer.php';?><!-- End Footer -->
+  <?php include '../components/footer.php'; ?>
+  <!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
