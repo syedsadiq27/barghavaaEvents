@@ -42,10 +42,10 @@
 
  
   <!-- ======= Top Bar ======= -->
-  <?php include 'components/top-bar.php';?>
+  <?php include '../components/top-bar.php';?>
 
   <!-- ======= Header ======= -->
-  <?php include 'components/header.php';?>
+  <?php include '../components/header.php';?>
   <!-- End Header -->
 
   <main id="main">
