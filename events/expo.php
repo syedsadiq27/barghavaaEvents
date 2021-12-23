@@ -7,7 +7,7 @@
 
  
   <?php
-  $json = file_get_contents(dirname(__DIR__) . '/public_html/SEO/seo.json');
+  $json = file_get_contents("http" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . "/SEO/seo.json");
   $json_data = json_decode($json, true);
   $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php') ;
   $seo = $json_data[$fileName];
