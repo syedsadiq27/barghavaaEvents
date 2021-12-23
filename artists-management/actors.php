@@ -4,9 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Actors in Hosur,Bangalore | Best Actors in Hosur,Bangalore | Actors in Hosur for wedding Reception | Top 100 DJ Services in Hosur | Best Actors | Top Actors Organisers in Hosur, Bangalore | Bargavaa Events Planner</title>
-
   <?php
   $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
   $json_data = json_decode($json, true);

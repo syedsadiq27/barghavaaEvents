@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Event Makers - Birthday Party Organiser in Hosur,Bangalore | Event Music Planner in Hosur | Best Event Management Companies Singer Murshidabad | Male singer Events in Hosur | Bargavaa Events Planner</title>
-	
-	<meta name="description" content="Exceptionally talented Male, Female vocalists and duo to mesmerize your event! Our musically gifted singers perform at corporate events, wedding ceremonies, festivals,private parties, public events and much more!">
- 
-   <meta name="keyword" content="singer Events, singer events, singer events near me, singapore events company, events singer island florida, events singer uk, jen singer events, michael singer events, punjabi singer events in delhi, blair singer events, country singer events near me, craig singer epic events, entertainment singer events, events emcee singer, singer for events, how to get a singer to perform at your event, jack singer hall events, singer island events, singer island events today, jack singer events, jen singer events llc, mike singer events, singer songwriter events nashville, peter singer events, pink singer events, roblox singer events, rock singer events, singer songwriter events, singing event singer, the singer events srl, the singer events, events company singapore hiring, events company singapore internship, company events singapore covid, singapore concert event company, how singapore deal with covid, company events during covid, what happened to singapore covid, is singapore safe from covid, company events during covid singapore, event decoration company singapore, event design company singapore, which businesses are affected by covid, how covid 19 affected singapore, singapore event management company, event company for sale singapore, events company in singapore, best events company in singapore, singapore event company list, event logistics company singapore, events management company singapore">
- 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
 
- <meta name="keyword" content="mice event company singapore, event planning company singapore, phase 3 singapore company event, event production company singapore, singapore event companies, singapore company event covid, events companies singapore, the event company singapore, singapore top event company, virtual events company singapore, wedding event company singapore, singapore event company, event management company singapore, event company singapore hiring, virtual event company singapore, events in singer island florida, event sign up, event sign up sheet, event sign up sheet template, event sign up apps, event sign up form, event sign up free, event sign up google forms, event sign up page, punjabi folk singers in delhi, punjabi ladies sangeet singers in delhi, craig david southend july, craig charles new years eve 2021, book singer for event, how to become an event singer, how to get a singer to perform at your wedding, how to meet a singer at their concert, jack singer concert hall events, jack harlow events, singer island family activities, singer island florida activities, singer island fun activities, singer island craft fair">
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">

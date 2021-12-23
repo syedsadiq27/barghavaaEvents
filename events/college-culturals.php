@@ -5,11 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Cultural Event Organizers in Hosur,Bangalore | Best Cultural Event Agancy in Hosur,Bangalore | Top 10 Cultural Event Company in Hosur,Bangalore | Bargavaa Events Planner</title>
-  <meta name="description" content="Bring in the extravaganza at College fests! We add the oomph factor to your event by assisting in themes, decor, entertainment, Audio Visual arrangement, catering, photography and lots of fun activities!."/>
-    <meta name="keyword" content="Cultural Event Organizers, cultural event management, cultural event planning guide, cultural event example, cultural event organizers, european cultural event planning office, cultural event name, cultural event management jobs, cultural program event management, barbara glauning cultural event management, event management for tourism cultural business and sport, cultural event management iadt, sample cultural event planning, cultural event planning, cultural event planner, cultural event program list, cultural event hosting script, cultural event examples, cultural event essay example, how to describe a cultural event, what are the cultural events, what are the examples of events, cultural events examples, cultural events examples in india, cultural events examples in college, cultural events examples in the philippines">
-<meta name="keyword" content="cultural events examples in kenya, socio cultural events examples, social and cultural events examples, cross cultural events examples, cultural event description, cultural event list, cultural activity example in hindi, example of cultural event, what are some popular culture examples, cultural event names, cultural event name ideas, cultural event names list, cultural event names in sanskrit, cultural event name ideas in hindi, a cultural event name, cultural program name, tamil cultural event names, marathi cultural event name, cultural event other name, event name for cultural, cultural activity name in hindi, how do you write a catchy event name, cultural events other names, name of cultural event, cultural event name suggestions, name the cultural event, event management for tourism cultural business and sporting events, event management for tourism cultural business and sporting events pdf, event management for tourism cultural business and sporting events 4th edition">
 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
+
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
+
+  
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">

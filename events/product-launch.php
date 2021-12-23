@@ -5,11 +5,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Product Launch Events in Hosur,Bangalore | Product Launch Agency in Hosur,Bangalore | Product Launch Company in Hosur,Bangalore | Bargavaa Events Planner</title>
-  <meta name="description" content="Introduce your product in a grand manner with Bargavaa events. Our services extend to planning the launch, creating invitations, finding a venue, using a suitable theme and creating a buzz around the town for your brand."/>
-    <meta name="keyword" content="Product Launch Events, product launch events examples, product launch events 2021, product launch event 2020, apple product launch events, product launch ideas events, successful product launch events, product launch live events, types of product launch events, best product launch events, product launch event, product launch event examples, product launch event planning, product launch events should include the following key elements, what is a product launch event, product launch failure examples, ideas for product launch events, how to plan a product launch event, google product launch event, huawei new product launch event, importance of product launch events, product launch event management, new product launch events, product launch event objectives, product launch event online, product launch event of, examples of product launch events, characteristics of product launch event, virtual product launch events, product launch events, virtual product launch event examples, product launch event proposal sample, product launch event agenda, apple new product launch event 2021">
-<meta name="keyword" content="how often does apple launch new products, apple launch events 2020, what month does apple release new products, virtual product launch event 2020, apple product launch event 2020, microsoft product launch event 2020, virtual product launch ideas, what is launch event, apple launch event today, how much does a launch event cost, apple product launch event 2021, apple product launch event 2019, apple new product launch event, apple event launch products, apple products launch dates, apple launch event, apple launch event details, product launch event ideas, product launch ideas, product launch campaign ideas, product launch ideas for students, product pre launch ideas, product launch content examples, product launch event theme ideas, successful product launch examples in india, successful product launches in india, successful new product launches, successful product launches, successful product launch examples, product launch virtual event, product launch event ppt, product launch event presentation, types of product launch, types of product releases">
 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
+
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
+  
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">

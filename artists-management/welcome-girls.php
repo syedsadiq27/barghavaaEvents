@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome Girls For Events In Hosur,Bangalore | Welcome Girls For Wedding Events | Welcome Girls For Wedding - Event Services In Hosur,Bangalore | Welcome Girls | Event Planning and Organizing | Bargavaa Events Planner</title>
-    <meta name="description" content="We provide welcome girls to your wedding events, reception parties, corporate functions, family functions, private parties, exhibitions, trade shows, business meetings, etc.">
- 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
 
- <meta name="keyword" content="Welcome Girls For Events,welcome.girls.for.events in Hosur,welcome.girls.for.events in bangalore">
-	
-	 
-
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">

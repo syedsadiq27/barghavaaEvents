@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>VJ Systems | Hosur,Bangalore - Best Data Provider Company | Vj Enterprises Installation Services In Amman Nagar,Hosur, Tamil Nadu 635109 | VJ Service Agency in Hosur,Bangalore | VJ Service Company In Hosur </title>
-   <meta name="description" content="Choose from our variety of Vjs to conduct game shows, debate shows, interview the guests, etc on television.">
- 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
 
- <meta name="keyword" content="VJ Service, vj services, vj's services group inc, vj services saint antoine, vj service national arboretum, vj service today, vj service on tv, vj taxi service, vj honda service centre, vj service arboretum, vj's auto service, vj's auto service asheville nc, vj aqua service, vj's auto service inc, vj day service bbc, where is the vj service being held, vj honda service center badlapur, vj car service, vj cab service, vj cleaning service, vj car service liberty, vj wood service center, vj honda service centre ulhasnagar contact number, vj day service, vj delivery service, vj honda service centre dombivli maharashtra, vj accounting & taxation services, vj engineering services, vj roofing services, vj agro services, vj sourcing and services, vj funeral service, service for vj day, service for vj day 2020, vj honda service centre kalyan, where was the vj service held today, vj diesel fuel injection service, vj honda service center kalyan, vj auto service la puente, bj services mill hall pennsylvania, bj services (m) sdn bhd, bj services massillon, bj services mill hall, bj services (m) sdn bhd labuan, bj services middlemount, bj services malaysia, bj services merchandise store">
-	
-	 <meta name="keyword" content="vj day national service of remembrance, vj online service, vj day order of service, vj painting service, vj service padborg, vj remembrance service, vj day remembrance service, vj auto sales & service, vj honda service center sonarpada, vj tree service, vj's tv service, vj tax service, vj accounting and tax service, vj honda ulhasnagar service center, vj wedding service, vj wood service, vj accountancy services ltd, vj consultancy services, vj consultancy services jaipur, vj bhatt services pvt ltd, vj online services, vj aircon services, vj sourcing and services gotri vadodara, vk building services, vj catering services, vj cleaning services, vj ryan & co services, vj health care services, vj day services, vj distribution services, vj painting and decorating services, vj funeral services, vj maintenance facility services sl, vj maintenance facility services sl zaragoza, vj hr services, vj inspection services, vj rollo security services inc, vj legal services, vj total services llc, vj welding & pipe services ltd, vj roofing services pty ltd, vj ralph city legal services, vj ndt services, vj nails services, vj property services, vj painting services, vj services panama, vj security services, vj solutions services, vj rollo security services, vj tees & services, vj technical services, vj transportation services, vj agro services thiruvallur, vj accounting & tax services, vj sourcing and services vadodara, vj nt, v j agro services thiruvallur, van paryavaran mantri gujarat, where is vj service today, where is the vj service today, vijay today schedule, vijay today program">
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">

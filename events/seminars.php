@@ -5,12 +5,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Academic Events Worldwide | Events, Global Trade Shows, All Conferences | Bargavaa Upcoming Live Virtual Events 2021 | Bargavaa Events Planner</title>
-   
-	<meta name="description" content="We offer team building activities, Invitation and seminar stationery, AV Arrangement, Hospitality etc.to add to the success of the seminar."/>
-    <meta name="keyword" content="Seminars Event, seminars events, seminars event management, seminars events near me, seminars events in the philippines, seminar event plan, seminars eventbrite, events seminars conferences, business seminars events, seminars and event, seminar event budget, seminar event banner, seminar event background, event brief for seminar, event brief for seminar sample, seminar business event flyer, eventbrite seminar registration, seminar event company, contoh proposal event seminar, event concept for seminar, characteristics of seminar event, contoh rab event seminar, contoh event seminar, contoh konsep event seminar, cara membuat event seminar, seminar event ideas, seminar event example, seminar event essay, example of seminar event proposal, seminar event flow, seminar event floor plan, seminar event feedback form, seminar event flyer, seminars for event planners, loweide seminar & event farm, event.webinarjam free seminar, event proposal for seminar sample, event seminar gratis, riverside seminar- & event hotel, seminar event invitation sample, seminars in event, event industry seminars, event seminar di jakarta, seminar event logo, seminar event management, seminar event meaning, event management seminar topics, event marketing seminar, microsoft event seminar, event management online seminar, event management seminar report pdf, manajemen event seminar, nikkei event seminar, seminar event space nyc">
-<meta name="keyword" content="example of seminar event, event seminar online, event organizer seminar philippines, purpose of seminar event, seminar on event management, event organizer seminar, seminar event planning, seminar event proposal, seminar event proposal sample, seminar event poster, seminar event package, seminar event picture, event planning seminars near me, euromoney seminars events, fetterman events seminars, seminar event template, virtual event seminar, event vs seminar, what is seminar event, work incentive seminar event, seminar and workshop event, seminars corporate events, seminars and events management, saica seminars and events, bloomberg seminars and events, events and seminars near me, seminars for events, psychology seminars events, seminars today near me, events and workshops near me, seminar events near me, seminars near me 2021, seminar event planner, event planung seminar, eventbrite seminars, liverpool trauma seminars eventbrite, eventbrite homebuyer seminar, online seminar eventbrite, eventbrite free seminars, eventbrite online seminars, seminar message, eventbrite conference registration">
 
+  <?php
+  $json = file_get_contents(dirname(__DIR__) . '/SEO/seo.json');
+  $json_data = json_decode($json, true);
+  $fileName = basename($path, ".php");
+  $seo = $json_data[$fileName]
+  ?>
+
+  <title><?php echo $seo['title'] ?></title>
+  <meta name="description" content="<?php echo $seo['description'] ?>">
+  <meta name="keywords" content="<?php echo $seo['keywords'] ?>">
+  
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
